@@ -1,12 +1,16 @@
 FROM node:4.4.2
 
-RUN npm install webpack -g
+# RUN mkdir /src
 
-WORKDIR /
+# RUN npm install webpack -g
 
-RUN npm install
+# WORKDIR /src
 
-RUN npm run build
+# ADD package.json /src/package.json
+
+# UN npm install
+
+# RUN npm run build
 
 EXPOSE 3000
 
