@@ -14,4 +14,4 @@ FROM node:4.4.2
 
 EXPOSE 3000
 
-CMD node dist/server.js
+CMD node /dist/server.js
